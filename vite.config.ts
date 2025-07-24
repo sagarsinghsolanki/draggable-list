@@ -1,7 +1,8 @@
+// vite.config.ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  // base: '/drag-drop-list/', // set to '/<your-repo-name>/' if deploying to GitHub Pages
   plugins: [react()],
 })
